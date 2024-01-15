@@ -1,20 +1,13 @@
-// Cambios en layout.tsx
-
 import '@/app/ui/global.css';
-import { inter } from '@/app/ui/fonts';
-
-// Define tu componente RootLayout aquí
-export function RootLayout({
+ 
+export default function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} antialiased`}>{children}</body>
+      <body>{children}</body>
     </html>
   );
 }
-
-// Exporta tu componente RootLayout como default
-export default RootLayout;

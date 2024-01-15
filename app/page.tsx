@@ -6,6 +6,7 @@ import styles from '@/app/ui/home.module.css';
 import Image from 'next/image';
 
 import { lusitana } from '@/app/ui/fonts';
+import { getLayout } from '../app/layout';
 
 
 export default function Page() {
@@ -53,3 +54,5 @@ export default function Page() {
     </main>
   );
 }
+
+
